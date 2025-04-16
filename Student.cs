@@ -46,15 +46,15 @@
 
         public void WstawNaWolnąPółkę(T wartość)
         {
-            if (EqualityComparer<T>.Default.Equals(Półka1, default(T)))
+            if (Półka1.Equals(default(T)))
             {
                 Półka1 = wartość;
             }
-            else if (EqualityComparer<T>.Default.Equals(Półka2, default(T)))
+            else if (Półka2.Equals(default(T)))
             {
                 Półka2 = wartość;
             }
-            else if (EqualityComparer<T>.Default.Equals(Półka3, default(T)))
+            else if (Półka3.Equals(default(T)))
             {
                 Półka3 = wartość;
             }

@@ -41,7 +41,7 @@ namespace WpfApp5
             txtPółka3.Text = $"Półka3: {regał.Półka3}";
         }
 
-        // Zdarzenie kliknięcia przycisku "Wstaw Na Wolną Półkę"
+     
         private void OnWstawNaWolnąPółkęClick(object sender, RoutedEventArgs e)
         {
             string wartość = inputTextBox.Text;
@@ -49,7 +49,7 @@ namespace WpfApp5
             AktualizujPółki();
         }
 
-        // Zdarzenie kliknięcia przycisku "Wstaw Na Półkę 1"
+        
         private void OnWstawNaPółkę1Click(object sender, RoutedEventArgs e)
         {
             string wartość = inputTextBox.Text;
@@ -57,7 +57,7 @@ namespace WpfApp5
             AktualizujPółki();
         }
 
-        // Zdarzenie kliknięcia przycisku "Wstaw Na Półkę 2"
+        
         private void OnWstawNaPółkę2Click(object sender, RoutedEventArgs e)
         {
             string wartość = inputTextBox.Text;
@@ -65,7 +65,6 @@ namespace WpfApp5
             AktualizujPółki();
         }
 
-        // Zdarzenie kliknięcia przycisku "Wstaw Na Półkę 3"
         private void OnWstawNaPółkę3Click(object sender, RoutedEventArgs e)
         {
             string wartość = inputTextBox.Text;
